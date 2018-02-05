@@ -1,0 +1,37 @@
+Important aspplications of time series analysis (TSA) in Hydrology
+
+1. Forcasting
+2. Estimating transfer function	
+	The hydrologic response (i.e., streamflow) to an arbitrary storm is a linear superposition of these unit hydrographs
+	The occurence of precipitation in hydrologic systems can be viewed as an "intervention" and the hydrograph is the transfer function that predicts system response to that intervention
+3. Analysis of multivariate time series
+	varible of interest "depends" on other variables
+	Gap filling
+		Develope a statistical model of the form (e.g., Qt = f(Pt, P(t-2),..., P(t-n), Ht, H(t-1), etc.))
+	
+
+Stochastic models vs Dynamical deterministic models
+
+Stochastic
+	PROS
+	-data driven
+	-work well when proccesses are not well understood
+
+	CONS
+	-Sensitive to the range, and statistical characteristics of data used to develope then
+	-not necessarily transferable to other settings
+
+Dynamical 
+	PROS
+	-can derive from frist principles (mass-energy conservation, darcy's law)
+	-transferable to any location where the physics is still valid
+	CONS
+	-"closure problems" -> lack of fundamental understanding
+	-parameterization that are emperical or conceptual
+
+
+STOCHASTIC MODELS
+	autoregressive models
+
+	
+	
